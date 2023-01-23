@@ -1,0 +1,47 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    border-radius: 23px;
+    color: rgb(6, 249, 131);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.clockbox1 {
+    width: 250px;
+    text-align: center;
+    height: auto;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.clockbox2 {
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
